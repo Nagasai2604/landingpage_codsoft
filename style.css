@@ -1,0 +1,168 @@
+.bg{
+    background-image: url("https://img.freepik.com/premium-photo/medical-symbols-hexagonal-frame-technology-blue-background-d_974629-48955.jpg?w=996");
+}
+.navbar {
+    background-color: #d1f3f3 !important;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000 !important;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff !important;
+}
+
+#hero {
+    background: url('https://img.freepik.com/free-photo/blur-hospital_1203-7972.jpg?t=st=1718021126~exp=1718024726~hmac=735d08893ffee0da3a3062913b23217fcee46ce98bbc9750ad563bff33edfdc4&w=996') center/cover no-repeat;
+    color: #fff;
+    animation: fadeIn 2s ease;
+}
+.herotxt{
+    color: #000;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    animation: fadeInDown 2s ease;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    animation: fadeInUp 2s ease;
+}
+
+#hero .btn {
+    animation: fadeIn 2s ease;
+}
+
+#services {
+    background-color: #f8f9fa;
+}
+
+#services .service {
+    transition: all 0.3s ease;
+}
+
+#services .service:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#doctors {
+    background-color: #fff;
+}
+
+.doctor img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#testimonials .testimonial:hover {
+    transform: scale(1.05);
+}
+
+#testimonials .testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#facilities .facility {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#facilities .facility:hover {
+    transform: scale(1.05);
+}
+
+#blog .blog-post {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#blog .blog-post:hover {
+    transform: scale(1.05);
+}
+
+#contact {
+    background-color: #f8f9fa;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+#contact .form-group input:focus,
+#contact .form-group textarea:focus {
+    border-color: #007bff;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
